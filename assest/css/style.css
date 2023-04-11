@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+    url('Vazir.woff') format('woff'),
+    url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:whitesmoke;
+    height: 50px;
+}
+li a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.list-style{
+    list-style: none;
+}
+.select:hover{
+    background-color: gray;
+}
+.header{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+}
+h1{
+    justify-content: space-around;
+    position: absolute;
+    left: 11%;
+    font-size: 34px;
+}
+h4{
+    position: absolute;
+    left: 11%;
+    top: 190%;
+    font-size: 15px;
+}
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+   
+  }
+   
+  /* Style each of the sides
+  with a fixed width and height */
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+   
+  /* Add animation to the slides */
+  .slide-wrapper {
+     
+  /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(728px * 3);
+   
+  /* Specify the animation with the
+    duration and speed */
+    animation: slide 10s ease infinite;
+  }
+   
+  /* Set the background color
+  of each of the slides */
+  .slide:nth-child(1) {
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+  }
+   
+  .slide:nth-child(2) {
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+  }
+   
+  .slide:nth-child(3) {
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+  }
+   
+   
+  /* Define the animation
+  for the slideshow */
+  @keyframes slide {
+     
+  /* Calculate the margin-left for
+    each of the slides */
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-728px * 2);
+    } 
+  
+  }
+  .body{  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  h2{
+      font-size: 30px;
+      padding-left: 10px;
+  }
+  h3{
+    font-size: 30px;
+    
+  }
+  .borderb{
+    border-bottom: 5px solid gray;
+  }
+  h5{
+      font-size: 25px;
+  }
+  h6{
+    font-size: 15px;
+  }
+  .boxs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+       
+  }
+  .box1{
+      width: 200px;
+      height: 200px;
+      box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+      overflow: hidden;
+
+  }
+  .c-w{
+      color: white;
+  }
+  .bg-w{
+    background-color: white;
+  }
+  .bg-dg{
+      background-color: darkgray;
+  }
+  .bg-b{
+      background-color: #000;
+  }
+  .bg-g{
+      background-color: lightgray;
+  }
+
+ 
+.pt{
+    padding-top: 100px;
+}
+.pb{
+    padding-bottom: 100px;
+}
+.ml{
+    margin-left: 10px;
+}
+.pl{
+    padding-left: 5px;
+}
+.mt{
+    margin-top: 15px;
+}
+.ml-140{
+    margin-left: 140px;
+}
+.mb{
+    margin-bottom: 70px;
+}
+.boxp{
+    width: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.boxp-header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 25px;
+    left: 0%;  
+    overflow: hidden;
+    text-align: center;
+}
+.borderg{
+    border-bottom: 2px solid rgb(218, 209, 209);
+    text-align: center;
+    height: 50px;
+}
+.signup{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+button:hover{
+    background-color: rgb(194, 181, 181);
+    color: black;
+}
+.no-borderb{
+      border-bottom: none;
+  }
+  .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;  
+  }
+.img-header{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+   
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    
+}
+.work{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.info{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.contactbtn{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+    background-color: rgb(226, 219, 219);
+    font-size: 20px;
+    padding-top: 5px;   
+}
+.fill-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    width: 100%;
+
+   
+}
+input{
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+
+}
+.submitbtn{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    margin-top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    position: relative;
+}
+h5{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+}
